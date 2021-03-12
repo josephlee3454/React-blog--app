@@ -28,7 +28,7 @@ export default function Navigation () {
 
     return (
     <nav className={`site-navigation ${menuActive && 'active'}`} role="navigation">
-        <span className="menu-title">My Awesome Blog</span>
+        <span className="menu-title">New Dev Algo Blog </span>
         <div
             className="menu-content-container"
         >
