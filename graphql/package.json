@@ -1,0 +1,23 @@
+{
+  "name": "react-dev-blog-back",
+  "version": "1.0.0",
+  "description": "graphql and koa backnd",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Joseph Lee",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-cache-inmemory": "^1.6.6",
+    "apollo-client": "^2.6.10",
+    "apollo-link-http": "^1.5.17",
+    "apollo-server-koa": "^2.21.1",
+    "graphql": "^15.5.0",
+    "graphql-tag": "^2.11.0",
+    "graphql-tools": "^7.0.4",
+    "koa": "^2.13.1",
+    "moment": "^2.29.1",
+    "react-apollo": "^3.1.5"
+  }
+}
