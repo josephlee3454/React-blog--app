@@ -1,4 +1,4 @@
-const postsSchema = require('./posts/mocks')
+const postsSchema = require('./posts')
 
 const resolvers = [
     postsSchema.resolvers

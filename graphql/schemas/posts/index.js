@@ -6,6 +6,7 @@ const fs = require('fs')
 
 const path = require('path')
 
+// const {errorHandler} = require('../../api/utils')
 
 module.exports = {
     resolvers:{
@@ -24,5 +25,6 @@ module.exports = {
             __dirname,
             './posts-schema.graphql'
         )
-    )
+        ).toString()
+    
 }
